@@ -1,4 +1,5 @@
 @import url("cabecalho.css");
+@import url("corpo.css");
 @import url("cartao.css");
 @import url("rodape.css");
 
@@ -18,27 +19,4 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-section {
-    /* border: .1rem purple solid; */
-    display: flex;
-    flex: 1;
-}
-
-nav {
-    /* border: .1rem orangered solid; */
-    width: 10rem;
-    background-color: #eee;
-    padding: .5rem;
-}
-
-.container {
-    /* border: .1rem rgb(74, 234, 74) solid; */
-    display: flex;
-    flex: 1;
-    padding: 1rem;
-    flex-wrap: wrap;
-    gap: .8rem;
-    justify-content: left
 }
