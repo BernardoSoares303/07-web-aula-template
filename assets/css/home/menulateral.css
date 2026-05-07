@@ -1,7 +1,7 @@
 nav {
   /* border: .1rem orangered solid; */
   width: 15rem;
-  background-color: #e7e6e6;
+  background-color: #eee;
   padding: 0.5rem;
 }
 
@@ -25,7 +25,7 @@ li {
 .opcao:hover {
   background-color: #ccc;
   color: black;
-  box-shadow: 0.3rem 0.3rem 0.3rem 0.01rem #b6b6b6;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.01rem #ddd;
   border: 0.1rem solid #bdbdbd;
 }
 
