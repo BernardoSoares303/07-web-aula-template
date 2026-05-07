@@ -1,5 +1,7 @@
-const email = "admin@email.com";
-const senha = "1234";
+import { Usuario } from "./Bd.js";
+
+const email = Usuario.email;
+const senha = Usuario.senha;
 
 function verificarCredenciais() {
   const emailInformado = document.getElementById("email").value;
@@ -15,3 +17,12 @@ function verificarCredenciais() {
   } else 
     alert("E-mail informado incorretamente!");
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const botao = document.querySelector("button");
+  botao.addEventListener("click", (e)=> {
+    e.preventDefault();
+    verificarCredenciais();
+  })
+})
